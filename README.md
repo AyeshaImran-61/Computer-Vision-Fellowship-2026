@@ -1,23 +1,52 @@
 # 🖼️ Vision Toolkit
 
-A professional **Computer Vision Toolkit** built with **Python, OpenCV, and Streamlit**. This application provides an interactive interface for performing common image processing operations, drawing shapes, visualizing histograms, and capturing images from a webcam.
+## AI Summer Fellowship 2026 – Week 1 Project
+
+### Student Information
+
+**Name:** Ayesha Imran
+
+**University:** The University of Faisalabad
+
+**Degree Program:** Bachelor of Artificial Intelligence
+
+**Fellowship Track:** Computer Vision Engineering
 
 ---
 
-# Features
+# 📌 Project Overview
 
-## Image Input
-- Upload JPG, JPEG, and PNG images
-- Capture images directly from a webcam
+Vision Toolkit is a Computer Vision application developed using Python, OpenCV, and Streamlit. The application allows users to upload an image or capture one using a webcam and apply various image processing techniques through an interactive graphical interface.
 
-## Image Information
+This project was developed as part of the AI Summer Fellowship 2026 Week 1 Challenge to strengthen the fundamentals of Computer Vision Engineering.
+
+---
+
+# 🎯 Objectives
+
+- Learn OpenCV fundamentals
+- Perform image processing
+- Build an interactive Vision Toolkit
+- Understand the Computer Vision pipeline
+- Practice Git and GitHub
+- Create professional technical documentation
+
+---
+
+# ✨ Features
+
+### Image Input
+- Upload Image
+- Webcam Capture
+
+### Image Information
 - Width
 - Height
 - Resolution
-- Number of Color Channels
-- Estimated File Size
+- File Size
+- Color Channels
 
-## Image Processing
+### Image Processing
 - Grayscale Conversion
 - Canny Edge Detection
 - Gaussian Blur
@@ -25,166 +54,162 @@ A professional **Computer Vision Toolkit** built with **Python, OpenCV, and Stre
 - Binary Threshold
 - Adaptive Threshold
 - Otsu Threshold
+
+### Image Enhancement
 - Brightness Adjustment
 - Contrast Adjustment
-- Image Rotation
-- Image Resize
-- Image Cropping
+- Rotation
+- Resize
+- Crop
 
-## Drawing Tools
+### Drawing Tools
 - Draw Rectangle
 - Draw Circle
 - Draw Line
-- Add Custom Text
+- Add Text
 
-## Visualization
-- RGB Histogram
-
-## Other Features
-- Before / After Comparison
+### Additional Features
+- Histogram Visualization
 - Save Processed Image
 - Download Processed Image
-- Reset Image
-- Professional Streamlit User Interface
 
 ---
 
-# Project Structure
+# 🛠️ Technologies Used
 
-```
-VisionToolkit/
-│
-├── app.py
-├── image_processing.py
-├── drawing_tools.py
-├── webcam.py
-├── utils.py
-├── requirements.txt
-└── README.md
-```
-
----
-
-# Technologies Used
-
-- Python 3.11+
-- Streamlit
+- Python
 - OpenCV
+- Streamlit
 - NumPy
 - Matplotlib
 - Pillow
+- Git
+- GitHub
 
 ---
 
-# Installation
+# 📂 Project Structure
 
-Clone the repository:
+```text
+Computer-Vision-Fellowship-2026/
 
-```bash
-git clone <repository_url>
+│── app.py
+│── image_processing.py
+│── drawing_tools.py
+│── webcam.py
+│── utils.py
+│── requirements.txt
+│── README.md
+
+├── Documentation/
+│   ├── Research_Report.pdf
+│   ├── Architecture_Diagram.pdf
+│   ├── Builder_Journal.pdf
+│   └── Installation_Guide.md
+
+├── Experiments/
+│   └── OpenCV_Experiments.ipynb
+
+├── Screenshots/
+
+└── Demo_Video_Link.txt
 ```
 
-Move into the project directory:
+---
+
+# ⚙️ Installation
+
+Clone the repository
 
 ```bash
-cd VisionToolkit
+git clone https://github.com/AyeshaImran-61/Computer-Vision-Fellowship-2026.git
 ```
 
-Install the required packages:
+Go into the project folder
+
+```bash
+cd Computer-Vision-Fellowship-2026
+```
+
+Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+Activate the virtual environment
+
+Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-# Run the Application
-
-Start the Streamlit application:
+Run the application
 
 ```bash
 streamlit run app.py
 ```
 
-The application will automatically open in your web browser.
+---
+
+# 📸 Screenshots
+
+Include screenshots of:
+
+- Vision Toolkit Home Screen
+- Image Upload
+- Grayscale Conversion
+- Edge Detection
+- Histogram
+- Drawing Tools
+- Webcam Capture
 
 ---
 
-# How to Use
+# 📚 Documentation
 
-1. Launch the application.
-2. Upload an image or capture one from the webcam.
-3. Choose an operation from the sidebar.
-4. Adjust the available parameters using the sliders or input fields.
-5. View the original and processed images side by side.
-6. Save or download the processed image.
+This repository includes:
 
----
-
-# Screenshots
-
-You can add screenshots of the application here after running it.
-
-Example:
-
-```
-screenshots/
-│
-├── home.png
-├── histogram.png
-├── drawing_tools.png
-└── webcam.png
-```
+- Research Report
+- Architecture Documentation
+- Builder Journal
+- Installation Guide
+- OpenCV Experiments Notebook
 
 ---
 
-# Future Improvements
+# 🎥 Demo Video
 
-Possible enhancements include:
+Demo Video Link:
 
-- Image Filters
-- Morphological Operations
+*(Paste your YouTube Unlisted or Google Drive link here.)*
+
+---
+
+# 🚀 Future Improvements
+
+- Real-time Object Detection
 - Face Detection
-- Object Detection using YOLO
-- Background Removal
 - Image Segmentation
-- OCR Integration
-- Real-Time Webcam Filters
-- Batch Image Processing
-- Dark Mode UI
+- YOLO Integration
+- Deep Learning Models
+- Video Processing
 
 ---
 
-# Learning Outcomes
+# 👩‍💻 Author
 
-This project demonstrates:
+**Ayesha Imran**
 
-- Computer Vision Fundamentals
-- OpenCV Image Processing
-- Streamlit Web Applications
-- Histogram Analysis
-- Thresholding Techniques
-- Image Transformations
-- Drawing Functions
-- Webcam Integration
-- Python Modular Programming
+Bachelor of Artificial Intelligence
 
----
+The University of Faisalabad
 
-# License
-
-This project is provided for educational and learning purposes.
-
-You are free to modify and extend it for personal, academic, or portfolio use.
-
----
-
-# Author
-
-Developed using:
-
-- Python
-- OpenCV
-- Streamlit
-
-Vision Toolkit © 2026
+AI Summer Fellowship 2026
