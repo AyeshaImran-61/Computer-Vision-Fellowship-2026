@@ -425,27 +425,6 @@ The Vision Toolkit was developed and organized using Visual Studio Code.
 </p>
 
 ---
-
-## 🌐 GitHub Repository
-
-The project source code and documentation are maintained using GitHub.
-
-<p align="center">
-  <img src="screenshots/04_github_repository.png" width="900">
-</p>
-
----
-
-## 📁 Final Project Structure
-
-The project structure contains the source code, documentation, experiments, requirements, and screenshots.
-
-<p align="center">
-  <img src="screenshots/11_project_structure.png" width="900">
-</p>
-
----
-
 # 🧪 OpenCV Experiments
 
 The project includes a Jupyter Notebook demonstrating five fundamental OpenCV experiments.
@@ -677,7 +656,8 @@ The required Python packages are specified in:
 requirements.txt
 ```
 
-No live demo URL is included in this README.
+ live demo URL 
+ https://vision-toolkit-app.streamlit.app/
 
 ---
 
@@ -713,8 +693,8 @@ These improvements provide a natural progression from traditional image processi
 | Installation Guide | ✅ Completed |
 | Screenshots | ✅ Completed |
 | GitHub Repository | ✅ Completed |
-| Streamlit Deployment | 🔄 In Progress |
-| Demo Video | 🔄 In Progress |
+| Streamlit Deployment | ✅ Completed|
+
 
 ---
 
